@@ -182,7 +182,7 @@ shinyServer(function(input, output) {
   abline(h=100,lwd=3,col="gray30",lty=2)
   abline(v=SEED.perturb(S=input$MAXY,g.g=input$GROWTHYg,mu.g=-log(input$SURVYg),g.c=input$GROWTHY,mu.c=-log(input$SURVY)),lwd=3,col="gray30",lty=2)
   points(SEED.perturb(S=input$MAXY,g.g=input$GROWTHYg,mu.g=-log(input$SURVYg),g.c=input$GROWTHY,mu.c=-log(input$SURVY)),100,pch=19)
- # text(SEED.perturb(S=input$MAXY,g.c=input$GROWTHY,mu.c=-log(input$SURVY))+5,2,"Canopy closure")
+ ## text(SEED.perturb(S=input$MAXY,g.c=input$GROWTHY,mu.c=-log(input$SURVY))+5,2,"Canopy closure")
   mtext(side=1,text="Black dot represents time to canopy closure",outer=T)  
   
   
