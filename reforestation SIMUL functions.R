@@ -342,7 +342,7 @@ return(fully.up)
 ###########TIME TO REFORESTATION ONLY
 ###########TIME TO REFORESTATION ONLY
 ###########TIME TO REFORESTATION ONLY
-###########TIME TO REFORESTATION ONLY
+
   
   get.time<-function(listo) {
     return(c(1:length(listo[[2]])*tsteps))
